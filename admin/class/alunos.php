@@ -30,7 +30,7 @@ class AlunosClass{
         $connect = Conexao::LigarConexao();
         $connect->exec($sql);
 
-        echo"<script>document.location='index.php?p=exercicios'</script>";
+        echo"<script>document.location='index.php?p=alunos'</script>";
     }
 }
 ?>
